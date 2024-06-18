@@ -1,6 +1,6 @@
 import torch.nn as nn
 
-class DomainAdaptationModule(nn.module):
+class DomainAdaptationModule(nn.Module):
   def __init__(self, num_classes, ndf = 64):
     super(DomainAdaptationModule, self).__init__()
 
